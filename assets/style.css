@@ -1,0 +1,44 @@
+body {
+    background: #f2f2f2;
+    font: 11px Calibri;
+    color: #000;
+}
+
+#content {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu-title {
+    display: block;
+    font: 14px Consolas;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#menu {
+    line-height: 18px;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    background-color: #ddd;
+    color: #000;
+    margin-bottom: 2px;
+    padding: 2px 2px 2px 5px;
+    transition: 0.5s;
+}
+
+#menu a:hover {
+    color: #bbb;
+}
